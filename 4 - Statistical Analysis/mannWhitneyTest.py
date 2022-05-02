@@ -2,14 +2,10 @@ from scipy.stats import mannwhitneyu
 import re
 
 #File Reader
-#input_a =  "totalTDS_Santised_VARs.txt"
-#input_a =  "totalTDS_Result_VARs.txt"
-#input_a =  "jaccard_Santised_VARs.txt"
+input_a =  "totalTDS_Result_VARs.txt"
 #input_a =  "jaccard_Result_VARs.txt"
-#input_a = "improv_totalTDS_Santised_VARs.txt"
 #input_a = "improv_totalTDS_Result_VARs.txt"
-#input_a = "improv_jaccard_Santised_VARs.txt"
-input_a = "improv_jaccard_Result_VARs.txt"
+#input_a = "improv_jaccard_Result_VARs.txt"
 
 f = open(input_a,"r", encoding='utf-8')
 lines = f.readlines()
@@ -21,14 +17,10 @@ for i in range(0,len(lines)):
     data1.append(float(text_))
 
 #File Reader
-#input_b =  "totalTDS_Santised_VARs.txt"
-#input_b =  "totalTDS_Result_VARs.txt"
+input_b =  "totalTDS_Santised_VARs.txt"
 #input_b =  "jaccard_Santised_VARs.txt"
-#input_b =  "jaccard_Result_VARs.txt"
 #input_b = "improv_totalTDS_Santised_VARs.txt"
-#input_b = "improv_totalTDS_Result_VARs.txt"
-input_b = "improv_jaccard_Santised_VARs.txt"
-#input_b = "improv_jaccard_Result_VARs.txt"
+#input_b = "improv_jaccard_Santised_VARs.txt"
 f = open(input_b,"r", encoding='utf-8')
 lines = f.readlines()
 
