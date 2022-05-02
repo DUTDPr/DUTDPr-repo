@@ -5,7 +5,7 @@ Repository for Deep Uncertainty in TD Prioritisation
 
 Directories in this project are based on activities which introduced corresponding artefacts:
 
-"1 - Mining": This directory is related to data mining and aggregation. Sanitised data mined from "https://github.com/clowee/The-Technical-Debt-Dataset" can be found in a CSV file. The mining query can be found in an SQL file.
+"1 - Mining": This directory is related to data mining and aggregation. Sanitised data mined from version 1.01 of The Technical Debt Dataset (https://github.com/clowee/The-Technical-Debt-Dataset) can be found in a CSV file. The mining query can be found in an SQL file.
 
 "2 - MOEA": This directory is related to MOEA, which is an algorithm runner, a defined JMetal problem, and its dependencies can be found in this directory. An algorithm runner and a defined problem are intended to be used with JMetalPy version 1.5.5.
 
